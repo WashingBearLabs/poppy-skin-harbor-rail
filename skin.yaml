@@ -1,0 +1,26 @@
+schema: 1
+kind: skin
+id: harbor-rail
+name: Harbor Rail
+description: A slim icon rail with a tucked-away chat drawer, giving the workspace every available pixel.
+version: 0.1.0
+platform: '>=1'
+layout:
+  nav:
+    placement: left-rail
+    labels: icons
+    initial: expanded
+  chat:
+    placement: drawer
+    side: right
+    initial: collapsed
+  workspace:
+    max_width: full
+    align: start
+  palette: true
+responsive:
+  mobile:
+    nav:
+      placement: bottom-dock
+    chat:
+      placement: bottom-sheet
